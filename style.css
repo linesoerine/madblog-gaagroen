@@ -252,3 +252,39 @@ h2{
     font-size: 10px;
     margin-top: 20px;
     margin-bottom: 15px; */
+
+        /*---- 07 FORMULAR ---*/
+
+        .container {
+            border-radius: 5px;
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+            flex-direction: column;
+          }
+    
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            flex-direction: column;
+          }
+          
+          input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #45a049;
+          }
+          
